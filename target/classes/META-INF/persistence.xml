@@ -5,6 +5,7 @@
     <!--implementacion de provvedor de persistencia-->
     <provider>org.hibernate.jpa.HibernatePersistenceProvader</provider>
     <class>com.mycompany.websiteminimercado43.servlets.Entitys.Inventario</class>
+    <class>com.mycompany.websiteminimercado43.entitys.Inventario</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
